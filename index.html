@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
-    <link rel="stylesheet" href="styles.css"/>
-    <style> p {
-        background-color: green ;
-        color: white;
-        font-size : 18px;
-    }</style>
+    <title>The Odin Project Recipes Exercise</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-    <h1 style="text-align: center;"> Odin Recipes </h1>
-<ul class="list"> 
-   <li> <a href="recipes/lasagna.html">Lasagna</a> </li>
-   <li> <a href="recipes/beer.html">Beer</a>       </li>
-   <li> <a href="recipes/pizza.html">Pizza</a>     </li>
-</ul>
 
+<body >
+    <h1> Odin Recipes </h1>
+    <div class="container">
+      <a class="column" href="lasagna.html" >
+          <img src="https://www.recipetineats.com/wp-content/uploads/2017/05/Lasagne-recipe-3-main.jpg?resize=650,910"alt="Lasagna Recipe">
+      </a>    
+      <a class="column" href="beer.html" >
+        <img src=data:image/jpeg;base64,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 alt="Tasty Beer">
+      </a>
+      <a class="column" href="pizza.html" >
+        <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQcHbxCjB7FY6Rttw1VZFdh0gIZmm4MLLjfmD0dhA11saxBKG_D49VVkmlvz3sE71-b" alt="pizza" >
+      </a>
+    </div>  
+
+    <footer>
+      <p>
+        Built by Cameron Seale
+      </p>  
+    </footer>
 
 </body>
+
 </html>
