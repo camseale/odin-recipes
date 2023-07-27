@@ -7,6 +7,7 @@ img
   height: 480px;
   width: 470px;
   box-sizing: border-box;
+  position: relative;
   
 }
 
@@ -22,11 +23,12 @@ footer
   box-sizing: border-box;
 }
 
-p { margin: 200px;
+body { margin: 200px;
   text-align: center;
-  color: red;
+  color: black;
   font-size: 40px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
   box-sizing: border-box;
 }
+
